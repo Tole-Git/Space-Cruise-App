@@ -8,7 +8,11 @@ This game lets user dodge and shoot incoming enemies.
 So far, the production of physics has been added.
 
 User Stories:
-Add Main Menu \n
-Add Score \n
-Add 3 lives \n
+
+Add Main Menu 
+
+Add Score 
+
+Add 3 lives 
+
 Enemies dissapear when shot
