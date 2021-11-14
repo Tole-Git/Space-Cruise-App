@@ -1,0 +1,600 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FC258AAF26D17178001D7F3B /* spaceShot.wav in Resources */ = {isa = PBXBuildFile; fileRef = FC258AAE26D17178001D7F3B /* spaceShot.wav */; };
+		FC9C7DDB26CF21CC007DEF23 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC9C7DDA26CF21CC007DEF23 /* AppDelegate.swift */; };
+		FC9C7DDD26CF21CC007DEF23 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = FC9C7DDC26CF21CC007DEF23 /* GameScene.sks */; };
+		FC9C7DDF26CF21CC007DEF23 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = FC9C7DDE26CF21CC007DEF23 /* Actions.sks */; };
+		FC9C7DE126CF21CC007DEF23 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC9C7DE026CF21CC007DEF23 /* GameScene.swift */; };
+		FC9C7DE326CF21CC007DEF23 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC9C7DE226CF21CC007DEF23 /* GameViewController.swift */; };
+		FC9C7DE626CF21CC007DEF23 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC9C7DE426CF21CC007DEF23 /* Main.storyboard */; };
+		FC9C7DE826CF21CC007DEF23 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC9C7DE726CF21CC007DEF23 /* Assets.xcassets */; };
+		FC9C7DF326CF21CC007DEF23 /* Space_CruiseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC9C7DF226CF21CC007DEF23 /* Space_CruiseTests.swift */; };
+		FC9C7DFE26CF21CC007DEF23 /* Space_CruiseUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC9C7DFD26CF21CC007DEF23 /* Space_CruiseUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FC9C7DEF26CF21CC007DEF23 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FC9C7DCF26CF21CC007DEF23 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FC9C7DD626CF21CC007DEF23;
+			remoteInfo = "Space Cruise";
+		};
+		FC9C7DFA26CF21CC007DEF23 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FC9C7DCF26CF21CC007DEF23 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FC9C7DD626CF21CC007DEF23;
+			remoteInfo = "Space Cruise";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FC258AAE26D17178001D7F3B /* spaceShot.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = spaceShot.wav; sourceTree = "<group>"; };
+		FC9C7DD726CF21CC007DEF23 /* Space Cruise.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Space Cruise.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC9C7DDA26CF21CC007DEF23 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FC9C7DDC26CF21CC007DEF23 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		FC9C7DDE26CF21CC007DEF23 /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
+		FC9C7DE026CF21CC007DEF23 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		FC9C7DE226CF21CC007DEF23 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		FC9C7DE526CF21CC007DEF23 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FC9C7DE726CF21CC007DEF23 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FC9C7DE926CF21CC007DEF23 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FC9C7DEE26CF21CC007DEF23 /* Space CruiseTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Space CruiseTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC9C7DF226CF21CC007DEF23 /* Space_CruiseTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Space_CruiseTests.swift; sourceTree = "<group>"; };
+		FC9C7DF426CF21CC007DEF23 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FC9C7DF926CF21CC007DEF23 /* Space CruiseUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Space CruiseUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC9C7DFD26CF21CC007DEF23 /* Space_CruiseUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Space_CruiseUITests.swift; sourceTree = "<group>"; };
+		FC9C7DFF26CF21CC007DEF23 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FC9C7DD426CF21CC007DEF23 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC9C7DEB26CF21CC007DEF23 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC9C7DF626CF21CC007DEF23 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FC9C7DCE26CF21CC007DEF23 = {
+			isa = PBXGroup;
+			children = (
+				FC9C7DD926CF21CC007DEF23 /* Space Cruise */,
+				FC9C7DF126CF21CC007DEF23 /* Space CruiseTests */,
+				FC9C7DFC26CF21CC007DEF23 /* Space CruiseUITests */,
+				FC9C7DD826CF21CC007DEF23 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FC9C7DD826CF21CC007DEF23 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FC9C7DD726CF21CC007DEF23 /* Space Cruise.app */,
+				FC9C7DEE26CF21CC007DEF23 /* Space CruiseTests.xctest */,
+				FC9C7DF926CF21CC007DEF23 /* Space CruiseUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FC9C7DD926CF21CC007DEF23 /* Space Cruise */ = {
+			isa = PBXGroup;
+			children = (
+				FC258AAE26D17178001D7F3B /* spaceShot.wav */,
+				FC9C7DDA26CF21CC007DEF23 /* AppDelegate.swift */,
+				FC9C7DDC26CF21CC007DEF23 /* GameScene.sks */,
+				FC9C7DDE26CF21CC007DEF23 /* Actions.sks */,
+				FC9C7DE026CF21CC007DEF23 /* GameScene.swift */,
+				FC9C7DE226CF21CC007DEF23 /* GameViewController.swift */,
+				FC9C7DE426CF21CC007DEF23 /* Main.storyboard */,
+				FC9C7DE726CF21CC007DEF23 /* Assets.xcassets */,
+				FC9C7DE926CF21CC007DEF23 /* Info.plist */,
+			);
+			path = "Space Cruise";
+			sourceTree = "<group>";
+		};
+		FC9C7DF126CF21CC007DEF23 /* Space CruiseTests */ = {
+			isa = PBXGroup;
+			children = (
+				FC9C7DF226CF21CC007DEF23 /* Space_CruiseTests.swift */,
+				FC9C7DF426CF21CC007DEF23 /* Info.plist */,
+			);
+			path = "Space CruiseTests";
+			sourceTree = "<group>";
+		};
+		FC9C7DFC26CF21CC007DEF23 /* Space CruiseUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FC9C7DFD26CF21CC007DEF23 /* Space_CruiseUITests.swift */,
+				FC9C7DFF26CF21CC007DEF23 /* Info.plist */,
+			);
+			path = "Space CruiseUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FC9C7DD626CF21CC007DEF23 /* Space Cruise */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC9C7E0226CF21CC007DEF23 /* Build configuration list for PBXNativeTarget "Space Cruise" */;
+			buildPhases = (
+				FC9C7DD326CF21CC007DEF23 /* Sources */,
+				FC9C7DD426CF21CC007DEF23 /* Frameworks */,
+				FC9C7DD526CF21CC007DEF23 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Space Cruise";
+			productName = "Space Cruise";
+			productReference = FC9C7DD726CF21CC007DEF23 /* Space Cruise.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FC9C7DED26CF21CC007DEF23 /* Space CruiseTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC9C7E0526CF21CC007DEF23 /* Build configuration list for PBXNativeTarget "Space CruiseTests" */;
+			buildPhases = (
+				FC9C7DEA26CF21CC007DEF23 /* Sources */,
+				FC9C7DEB26CF21CC007DEF23 /* Frameworks */,
+				FC9C7DEC26CF21CC007DEF23 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FC9C7DF026CF21CC007DEF23 /* PBXTargetDependency */,
+			);
+			name = "Space CruiseTests";
+			productName = "Space CruiseTests";
+			productReference = FC9C7DEE26CF21CC007DEF23 /* Space CruiseTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FC9C7DF826CF21CC007DEF23 /* Space CruiseUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC9C7E0826CF21CC007DEF23 /* Build configuration list for PBXNativeTarget "Space CruiseUITests" */;
+			buildPhases = (
+				FC9C7DF526CF21CC007DEF23 /* Sources */,
+				FC9C7DF626CF21CC007DEF23 /* Frameworks */,
+				FC9C7DF726CF21CC007DEF23 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FC9C7DFB26CF21CC007DEF23 /* PBXTargetDependency */,
+			);
+			name = "Space CruiseUITests";
+			productName = "Space CruiseUITests";
+			productReference = FC9C7DF926CF21CC007DEF23 /* Space CruiseUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FC9C7DCF26CF21CC007DEF23 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					FC9C7DD626CF21CC007DEF23 = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+					FC9C7DED26CF21CC007DEF23 = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = FC9C7DD626CF21CC007DEF23;
+					};
+					FC9C7DF826CF21CC007DEF23 = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = FC9C7DD626CF21CC007DEF23;
+					};
+				};
+			};
+			buildConfigurationList = FC9C7DD226CF21CC007DEF23 /* Build configuration list for PBXProject "Space Cruise" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FC9C7DCE26CF21CC007DEF23;
+			productRefGroup = FC9C7DD826CF21CC007DEF23 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FC9C7DD626CF21CC007DEF23 /* Space Cruise */,
+				FC9C7DED26CF21CC007DEF23 /* Space CruiseTests */,
+				FC9C7DF826CF21CC007DEF23 /* Space CruiseUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FC9C7DD526CF21CC007DEF23 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC9C7DE626CF21CC007DEF23 /* Main.storyboard in Resources */,
+				FC258AAF26D17178001D7F3B /* spaceShot.wav in Resources */,
+				FC9C7DDD26CF21CC007DEF23 /* GameScene.sks in Resources */,
+				FC9C7DE826CF21CC007DEF23 /* Assets.xcassets in Resources */,
+				FC9C7DDF26CF21CC007DEF23 /* Actions.sks in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC9C7DEC26CF21CC007DEF23 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC9C7DF726CF21CC007DEF23 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FC9C7DD326CF21CC007DEF23 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC9C7DE126CF21CC007DEF23 /* GameScene.swift in Sources */,
+				FC9C7DE326CF21CC007DEF23 /* GameViewController.swift in Sources */,
+				FC9C7DDB26CF21CC007DEF23 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC9C7DEA26CF21CC007DEF23 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC9C7DF326CF21CC007DEF23 /* Space_CruiseTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC9C7DF526CF21CC007DEF23 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC9C7DFE26CF21CC007DEF23 /* Space_CruiseUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FC9C7DF026CF21CC007DEF23 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FC9C7DD626CF21CC007DEF23 /* Space Cruise */;
+			targetProxy = FC9C7DEF26CF21CC007DEF23 /* PBXContainerItemProxy */;
+		};
+		FC9C7DFB26CF21CC007DEF23 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FC9C7DD626CF21CC007DEF23 /* Space Cruise */;
+			targetProxy = FC9C7DFA26CF21CC007DEF23 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FC9C7DE426CF21CC007DEF23 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FC9C7DE526CF21CC007DEF23 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FC9C7E0026CF21CC007DEF23 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FC9C7E0126CF21CC007DEF23 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FC9C7E0326CF21CC007DEF23 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VV8XXAX4M7;
+				INFOPLIST_FILE = "Space Cruise/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ToneApps.Space-Cruise";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FC9C7E0426CF21CC007DEF23 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VV8XXAX4M7;
+				INFOPLIST_FILE = "Space Cruise/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ToneApps.Space-Cruise";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FC9C7E0626CF21CC007DEF23 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VV8XXAX4M7;
+				INFOPLIST_FILE = "Space CruiseTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ToneApps.Space-CruiseTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Space Cruise.app/Space Cruise";
+			};
+			name = Debug;
+		};
+		FC9C7E0726CF21CC007DEF23 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VV8XXAX4M7;
+				INFOPLIST_FILE = "Space CruiseTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ToneApps.Space-CruiseTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Space Cruise.app/Space Cruise";
+			};
+			name = Release;
+		};
+		FC9C7E0926CF21CC007DEF23 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VV8XXAX4M7;
+				INFOPLIST_FILE = "Space CruiseUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ToneApps.Space-CruiseUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Space Cruise";
+			};
+			name = Debug;
+		};
+		FC9C7E0A26CF21CC007DEF23 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VV8XXAX4M7;
+				INFOPLIST_FILE = "Space CruiseUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ToneApps.Space-CruiseUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Space Cruise";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FC9C7DD226CF21CC007DEF23 /* Build configuration list for PBXProject "Space Cruise" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC9C7E0026CF21CC007DEF23 /* Debug */,
+				FC9C7E0126CF21CC007DEF23 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FC9C7E0226CF21CC007DEF23 /* Build configuration list for PBXNativeTarget "Space Cruise" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC9C7E0326CF21CC007DEF23 /* Debug */,
+				FC9C7E0426CF21CC007DEF23 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FC9C7E0526CF21CC007DEF23 /* Build configuration list for PBXNativeTarget "Space CruiseTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC9C7E0626CF21CC007DEF23 /* Debug */,
+				FC9C7E0726CF21CC007DEF23 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FC9C7E0826CF21CC007DEF23 /* Build configuration list for PBXNativeTarget "Space CruiseUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC9C7E0926CF21CC007DEF23 /* Debug */,
+				FC9C7E0A26CF21CC007DEF23 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FC9C7DCF26CF21CC007DEF23 /* Project object */;
+}
